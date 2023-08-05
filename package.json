@@ -1,8 +1,19 @@
 {
   "name": "pluto-theme",
   "displayName": "pluto-theme",
-  "description": "",
+  "description": "Take a trip through the galaxy and experience the clean silence!",
+  "publisher": "Muhammed Faheem",
+  "icon": "icons/nanowise-vsc-icon.png",
   "version": "0.0.1",
+  "author": {
+    "name": "Muhammed Fahee,",
+    "email": "faheem7225@gmail.com",
+    "url": "https://www.linkedin.com/in/muhammed-faheem-k-2a7593222/"
+  },
+  "repository": {
+    "url": "https://github.com/faheem-cmd/plutolit-theme-vscode.git",
+    "type": "git"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -12,7 +23,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "pluto",
+        "label": "Plutolit",
         "uiTheme": "vs-dark",
         "path": "./themes/pluto-color-theme.json"
       }

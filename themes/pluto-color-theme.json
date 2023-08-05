@@ -1,32 +1,77 @@
 {
   "name": "pluto",
   "colors": {
-    "editor.background": "#382a26",
-    "editor.foreground": "#eeffff",
+    "editor.background": "#070416",
+    "editor.foreground": "#ffffff",
     "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "sideBarTitle.foreground": "#ee855b",
+    "activityBar.activeBackground": "#130941",
+    "activityBar.background": "#09051b",
+    "activityBar.foreground": "#f85d03",
+    "tab.activeBackground": "#0f082e",
+    "tab.activeBorder": "#00aeff",
+    // "tab.activeBorderTop": "#ff7300",
+    // "tab.activeForeground": "#ff7b00",
+    "tab.inactiveBackground": "#09051b",
+    "tab.hoverBackground": "#190f46",
+    "editorCursor.foreground": "#649fec",
+    "menu.background": "#0b0527",
+    "menu.foreground": "#e9b88b",
+    "sideBar.background": "#04010ef5",
+    "statusBar.background": "#24375adc",
+    "statusBar.debuggingBackground": "#db7d4e",
+    "sideBarSectionHeader.background": "#120a36",
+    "titleBar.activeBackground": "#09051bdc",
+    "titleBar.activeForeground": "#fcfcfc",
+    "titleBar.inactiveBackground": "#2e2a36",
+    "titleBar.inactiveForeground": "#ffffff",
+    "terminal.ansiCyan": "#03aaf7",
+    "terminal.ansiBrightBlack": "#2f8a67",
+    "terminal.background": "#0a031d",
+    "terminalCursor.foreground": "#695656",
+    "scrollbarSlider.background": "#4e566660"
   },
   "tokenColors": [
     {
-      "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#546E7A"
-      }
-    },
-    {
-      "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "name": "Using",
+      "scope": ["keyword.other.using.cs"],
       "settings": {
         "foreground": "#EEFFFF"
       }
     },
     {
-      "name": "Colors",
-      "scope": ["constant.other.color"],
+      "name": "Packages",
+      "scope": ["entity.name.type.namespace.cs"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#dfeeee"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": ["keyword.other.namespace.cs", "source.cs"],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": ["keyword.preprocessor.pragma.cs", "storage.type"],
+      "settings": {
+        "foreground": "#f0f0f0"
+      }
+    },
+    {
+      "name": "Methods",
+      "scope": ["entity.name.function.cs"],
+      "settings": {
+        "foreground": "#2ab2f1"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["entity.name.variable.field.cs"],
+      "settings": {
+        "foreground": "#eeeaea"
       }
     },
     {
@@ -34,13 +79,6 @@
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#FF5370"
-      }
-    },
-    {
-      "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
-      "settings": {
-        "foreground": "#C792EA"
       }
     },
     {
@@ -138,7 +176,7 @@
         "entity.name",
         "support.type",
         "support.class",
-        "support.other.namespace.use.php",
+        "support.orther.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
@@ -537,7 +575,7 @@
       "scope": ["meta.separator"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#65737E"
+        "foreground": "#6f7e65"
       }
     },
     {
