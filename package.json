@@ -1,0 +1,21 @@
+{
+  "name": "pluto-theme",
+  "displayName": "pluto-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "pluto",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pluto-color-theme.json"
+      }
+    ]
+  }
+}
