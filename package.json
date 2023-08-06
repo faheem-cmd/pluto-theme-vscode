@@ -2,11 +2,11 @@
   "name": "pluto-theme",
   "displayName": "pluto-theme",
   "description": "Take a trip through the galaxy and experience the clean silence!",
-  "publisher": "Muhammed Faheem",
-  "icon": "icons/nanowise-vsc-icon.png",
-  "version": "0.0.1",
+  "publisher": "MuhammedFaheem",
+  "icon": "icon.png",
+  "version": "0.1.1",
   "author": {
-    "name": "Muhammed Fahee,",
+    "name": "MuhammedFaheem,",
     "email": "faheem7225@gmail.com",
     "url": "https://www.linkedin.com/in/muhammed-faheem-k-2a7593222/"
   },
