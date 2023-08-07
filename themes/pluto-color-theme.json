@@ -2,7 +2,7 @@
   "name": "pluto",
   "colors": {
     "editor.background": "#070416",
-    "editor.foreground": "#ffffff",
+    "editor.foreground": "#ffa55c",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#ee855b",
     "activityBar.activeBackground": "#130941",
