@@ -57,7 +57,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword.preprocessor.pragma.cs", "storage.type"],
       "settings": {
-        "foreground": "#f0f0f0"
+        "foreground": "#ffd503"
       }
     },
     {
@@ -183,7 +183,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#039ddf"
       }
     },
     {
