@@ -1,6 +1,6 @@
 {
   "name": "pluto-theme",
-  "displayName": "pluto-theme",
+  "displayName": "Pluto-theme (Beta)",
   "description": "Take a trip through the galaxy and experience the clean silence!",
   "publisher": "MuhammedFaheem",
   "icon": "icon.png",
@@ -23,7 +23,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Plutolit",
+        "label": "Pluto-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/pluto-color-theme.json"
       }
